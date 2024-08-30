@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Conversor</title>
+</head>
+
+<body>
+  <main id="Fundo">
+    <section>
+      <section class="Container">
+        <h2>&#x1F4B8 CONVERSOR DE MOEDAS &#x1F4B8</h2>
+        Converter <b>de:</b>
+        <select>
+          <option value="BRL">Real Brasileiro (BRL)</option>
+          <option value="USD">Dólar Americano (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="GBP">Libra esterlina (GBP)</option>
+          <option value="JPY">Iene (JPY)</option>
+          <option value="AUD">Dólar Australiano(AUD)</option>
+          <option value="CHF">Franco Suíço (CHF)</option>
+          <option value="CAD">Dólar Canadense (CAD)</option>
+          <option value="CNH">Renminbi Hong Kong(CNH)</option>
+          <option value="ARS">Peso Argentino (ARS)</option>
+          <option value="TRY">Lira Turca (TRY)</option>
+          <option value="KRW">Won (KRW)</option>
+
+        </select>
+
+        Converter <b>para:</b>
+        <select class="Selecionar-Valor">
+          <option value="BRL">Real Brasileiro (BRL)</option>
+          <option value="USD">Dólar Americano (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="GBP">Libra esterlina (GBP)</option>
+          <option value="JPY">Iene (JPY)</option>
+          <option value="AUD">Dólar Australiano(AUD)</option>
+          <option value="CHF">Franco Suíço (CHF)</option>
+          <option value="CAD">Dólar Canadense (CAD)</option>
+          <option value="CNH">Renminbi China(CNH)</option>
+          <option value="ARS">Peso Argentino (ARS)</option>
+          <option value="TRY">Lira Turca (TRY)</option>
+          <option value="KRW">Won (KRW)</option>
+
+        </select>
+
+        Valor
+        <input class="ValorInput" placeholder="R$ 0,00" type="text" name="nome" oninput="formatarMoeda(event)">
+
+        <button class="Botao-Converter"> Converter</button>
+      </section>
+
+
+      <section class="Container2">
+
+        <div class="Container3">
+          <div>
+            <img src="./assets/Brasil.png" alt="Bandeira do Brasil">
+
+            <p class="Texto">Real</p>
+            <p class="Moeda-para-converter">0.00</p>
+          </div>
+
+
+          <img src="./assets/Seta.png" alt="seta">
+
+
+
+          <div>
+
+            <img class="Moeda-Imagem" src="./assets/Estados Unidos.png" alt="Bandeira dos Estados Unidos">
+            <P class="Texto" id="Moeda-Nome">Dólar Americano</P>
+            <p class="Moeda-convertida">0.00 </p>
+
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+#Fundo {
+
+  background-image: url(./assets/capa2.jpg);
+  background-repeat: repeat;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+
+}
+
+
+.Container {
+  width: 550px;
+  background-color: whitesmoke;
+  border-radius: 15px 15px 0 0;
+  margin: 15px auto 0;
+  font-size: 16px;
+
+}
+
+
+section {
+  margin: 20px;
+  margin: auto;
+  padding: 24px 24px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+select {
+  background-color: lightgray;
+  border: 1px solid rgb(89, 122, 102);
+  border-radius: 5px;
+  height: 48PX;
+  width: 100%;
+  margin-bottom: 24PX;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(130, 124, 124);
+
+
+}
+
+
+input {
+  background-color: lightgray;
+  border: 1px solid rgb(89, 122, 102);
+  border-radius: 5px;
+  height: 48PX;
+  width: 100%;
+  margin-bottom: 24PX;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(130, 124, 124);
+
+
+}
+
+
+
+
+
+
+button {
+  background-color: rgb(89, 122, 102);
+  border: 1px solid rgb(89, 122, 102);
+  border-radius: 10px;
+  height: 48PX;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+  font-size: 20px;
+  color: rgb(43, 41, 41);
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.Container2 {
+  width: 550px;
+  background-color: whitesmoke;
+  border-radius: 0 0 15px 15px;
+  margin: 0 auto 15px;
+  font-size: 16px;
+
+}
+
+.Container3 {
+  border: 1px solid rgb(89, 122, 102);
+  border-radius: 15px;
+}
+
+img {
+  display: block;
+  margin: 40px auto 10px;
+}
+
+.Texto {
+  color: #706e6e;
+  text-align: center;
+  font-size: 14px;
+}
+
+.Moeda-para-converter,
+.Moeda-convertida {
+
+  color: #353535;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
